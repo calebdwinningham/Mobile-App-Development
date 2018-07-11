@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7009D9AB1DEF91480012FBD0 /* PlayerIconElim.png in Resources */ = {isa = PBXBuildFile; fileRef = 7009D9AA1DEF91480012FBD0 /* PlayerIconElim.png */; };
+		706A53A71DEE1CB80079B1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A53A61DEE1CB80079B1EF /* AppDelegate.swift */; };
+		706A53A91DEE1CB80079B1EF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 706A53A81DEE1CB80079B1EF /* GameScene.sks */; };
+		706A53AB1DEE1CB80079B1EF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A53AA1DEE1CB80079B1EF /* GameScene.swift */; };
+		706A53AD1DEE1CB80079B1EF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A53AC1DEE1CB80079B1EF /* GameViewController.swift */; };
+		706A53B01DEE1CB80079B1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706A53AE1DEE1CB80079B1EF /* Main.storyboard */; };
+		706A53B21DEE1CB80079B1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706A53B11DEE1CB80079B1EF /* Assets.xcassets */; };
+		706A53B51DEE1CB80079B1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706A53B31DEE1CB80079B1EF /* LaunchScreen.storyboard */; };
+		706A53BD1DEE1CCD0079B1EF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706A53BC1DEE1CCD0079B1EF /* GameKit.framework */; };
+		706A53BF1DEE22C10079B1EF /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A53BE1DEE22C10079B1EF /* BoardModel.swift */; };
+		706A53C11DEE22EC0079B1EF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A53C01DEE22EC0079B1EF /* Card.swift */; };
+		706A53C71DEE23D20079B1EF /* BatmanCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706A53C61DEE23D20079B1EF /* BatmanCard.jpg */; };
+		706A53C91DEE24090079B1EF /* JokerCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706A53C81DEE24090079B1EF /* JokerCard.jpg */; };
+		706A53CB1DEE24680079B1EF /* CatwomanCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706A53CA1DEE24680079B1EF /* CatwomanCard.jpg */; };
+		706A53D91DEE28B20079B1EF /* PlayerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 706A53D81DEE28B20079B1EF /* PlayerIcon.png */; };
+		706A53DD1DEE3BE00079B1EF /* GameLobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706A53DC1DEE3BE00079B1EF /* GameLobbyViewController.swift */; };
+		707CAD5D1DEE69E2002D78F8 /* CardBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707CAD5C1DEE69E2002D78F8 /* CardBack.jpg */; };
+		707CAD5F1DEE6A0A002D78F8 /* BaneCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707CAD5E1DEE6A0A002D78F8 /* BaneCard.jpg */; };
+		707CAD611DEE6A52002D78F8 /* ListOfCards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707CAD601DEE6A52002D78F8 /* ListOfCards.jpg */; };
+		707CAD631DEE6A92002D78F8 /* PoisonivyCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707CAD621DEE6A92002D78F8 /* PoisonivyCard.jpg */; };
+		707CAD651DEE6AE7002D78F8 /* TwofaceCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707CAD641DEE6AE7002D78F8 /* TwofaceCard.jpg */; };
+		707CAD671DEE6B01002D78F8 /* HarleyCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707CAD661DEE6B01002D78F8 /* HarleyCard.jpg */; };
+		707CAD691DEE6B42002D78F8 /* RobinCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707CAD681DEE6B42002D78F8 /* RobinCard.jpg */; };
+		707CAD6D1DEE81D8002D78F8 /* BlackBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707CAD6C1DEE81D8002D78F8 /* BlackBack.jpg */; };
+		70C82FCE1DEFC44A000BE730 /* BatmanLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C82FCD1DEFC44A000BE730 /* BatmanLogo.png */; };
+		70C82FD41DEFC607000BE730 /* LoveLetterLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C82FD31DEFC607000BE730 /* LoveLetterLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7009D9AA1DEF91480012FBD0 /* PlayerIconElim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerIconElim.png; sourceTree = "<group>"; };
+		706A53A31DEE1CB70079B1EF /* Love Letter Batman iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Letter Batman iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		706A53A61DEE1CB80079B1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		706A53A81DEE1CB80079B1EF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		706A53AA1DEE1CB80079B1EF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		706A53AC1DEE1CB80079B1EF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		706A53AF1DEE1CB80079B1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		706A53B11DEE1CB80079B1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706A53B41DEE1CB80079B1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		706A53B61DEE1CB80079B1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706A53BC1DEE1CCD0079B1EF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		706A53BE1DEE22C10079B1EF /* BoardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		706A53C01DEE22EC0079B1EF /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		706A53C61DEE23D20079B1EF /* BatmanCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BatmanCard.jpg; sourceTree = "<group>"; };
+		706A53C81DEE24090079B1EF /* JokerCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JokerCard.jpg; sourceTree = "<group>"; };
+		706A53CA1DEE24680079B1EF /* CatwomanCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CatwomanCard.jpg; sourceTree = "<group>"; };
+		706A53D81DEE28B20079B1EF /* PlayerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerIcon.png; sourceTree = "<group>"; };
+		706A53DC1DEE3BE00079B1EF /* GameLobbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLobbyViewController.swift; sourceTree = "<group>"; };
+		707CAD5C1DEE69E2002D78F8 /* CardBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CardBack.jpg; sourceTree = "<group>"; };
+		707CAD5E1DEE6A0A002D78F8 /* BaneCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BaneCard.jpg; sourceTree = "<group>"; };
+		707CAD601DEE6A52002D78F8 /* ListOfCards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ListOfCards.jpg; sourceTree = "<group>"; };
+		707CAD621DEE6A92002D78F8 /* PoisonivyCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PoisonivyCard.jpg; sourceTree = "<group>"; };
+		707CAD641DEE6AE7002D78F8 /* TwofaceCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TwofaceCard.jpg; sourceTree = "<group>"; };
+		707CAD661DEE6B01002D78F8 /* HarleyCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HarleyCard.jpg; sourceTree = "<group>"; };
+		707CAD681DEE6B42002D78F8 /* RobinCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RobinCard.jpg; sourceTree = "<group>"; };
+		707CAD6C1DEE81D8002D78F8 /* BlackBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlackBack.jpg; sourceTree = "<group>"; };
+		70C82FCD1DEFC44A000BE730 /* BatmanLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BatmanLogo.png; sourceTree = "<group>"; };
+		70C82FD31DEFC607000BE730 /* LoveLetterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoveLetterLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706A53A01DEE1CB70079B1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A53BD1DEE1CCD0079B1EF /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706A539A1DEE1CB70079B1EF = {
+			isa = PBXGroup;
+			children = (
+				706A53BC1DEE1CCD0079B1EF /* GameKit.framework */,
+				706A53A51DEE1CB80079B1EF /* Love Letter Batman iPad */,
+				706A53A41DEE1CB70079B1EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706A53A41DEE1CB70079B1EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706A53A31DEE1CB70079B1EF /* Love Letter Batman iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706A53A51DEE1CB80079B1EF /* Love Letter Batman iPad */ = {
+			isa = PBXGroup;
+			children = (
+				706A53C61DEE23D20079B1EF /* BatmanCard.jpg */,
+				706A53CA1DEE24680079B1EF /* CatwomanCard.jpg */,
+				707CAD5E1DEE6A0A002D78F8 /* BaneCard.jpg */,
+				707CAD681DEE6B42002D78F8 /* RobinCard.jpg */,
+				707CAD621DEE6A92002D78F8 /* PoisonivyCard.jpg */,
+				707CAD641DEE6AE7002D78F8 /* TwofaceCard.jpg */,
+				707CAD661DEE6B01002D78F8 /* HarleyCard.jpg */,
+				706A53C81DEE24090079B1EF /* JokerCard.jpg */,
+				707CAD5C1DEE69E2002D78F8 /* CardBack.jpg */,
+				706A53D81DEE28B20079B1EF /* PlayerIcon.png */,
+				7009D9AA1DEF91480012FBD0 /* PlayerIconElim.png */,
+				707CAD601DEE6A52002D78F8 /* ListOfCards.jpg */,
+				707CAD6C1DEE81D8002D78F8 /* BlackBack.jpg */,
+				70C82FCD1DEFC44A000BE730 /* BatmanLogo.png */,
+				70C82FD31DEFC607000BE730 /* LoveLetterLogo.png */,
+				706A53A61DEE1CB80079B1EF /* AppDelegate.swift */,
+				706A53A81DEE1CB80079B1EF /* GameScene.sks */,
+				706A53AA1DEE1CB80079B1EF /* GameScene.swift */,
+				706A53DC1DEE3BE00079B1EF /* GameLobbyViewController.swift */,
+				706A53AC1DEE1CB80079B1EF /* GameViewController.swift */,
+				706A53BE1DEE22C10079B1EF /* BoardModel.swift */,
+				706A53C01DEE22EC0079B1EF /* Card.swift */,
+				706A53AE1DEE1CB80079B1EF /* Main.storyboard */,
+				706A53B11DEE1CB80079B1EF /* Assets.xcassets */,
+				706A53B31DEE1CB80079B1EF /* LaunchScreen.storyboard */,
+				706A53B61DEE1CB80079B1EF /* Info.plist */,
+			);
+			path = "Love Letter Batman iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706A53A21DEE1CB70079B1EF /* Love Letter Batman iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706A53B91DEE1CB80079B1EF /* Build configuration list for PBXNativeTarget "Love Letter Batman iPad" */;
+			buildPhases = (
+				706A539F1DEE1CB70079B1EF /* Sources */,
+				706A53A01DEE1CB70079B1EF /* Frameworks */,
+				706A53A11DEE1CB70079B1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Love Letter Batman iPad";
+			productName = "Love Letter Batman iPad";
+			productReference = 706A53A31DEE1CB70079B1EF /* Love Letter Batman iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706A539B1DEE1CB70079B1EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = USAFA;
+				TargetAttributes = {
+					706A53A21DEE1CB70079B1EF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LDLH93LMDN;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 706A539E1DEE1CB70079B1EF /* Build configuration list for PBXProject "Love Letter Batman iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706A539A1DEE1CB70079B1EF;
+			productRefGroup = 706A53A41DEE1CB70079B1EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706A53A21DEE1CB70079B1EF /* Love Letter Batman iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706A53A11DEE1CB70079B1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A53CB1DEE24680079B1EF /* CatwomanCard.jpg in Resources */,
+				706A53A91DEE1CB80079B1EF /* GameScene.sks in Resources */,
+				707CAD631DEE6A92002D78F8 /* PoisonivyCard.jpg in Resources */,
+				706A53B51DEE1CB80079B1EF /* LaunchScreen.storyboard in Resources */,
+				707CAD671DEE6B01002D78F8 /* HarleyCard.jpg in Resources */,
+				70C82FD41DEFC607000BE730 /* LoveLetterLogo.png in Resources */,
+				7009D9AB1DEF91480012FBD0 /* PlayerIconElim.png in Resources */,
+				706A53B21DEE1CB80079B1EF /* Assets.xcassets in Resources */,
+				706A53C91DEE24090079B1EF /* JokerCard.jpg in Resources */,
+				707CAD651DEE6AE7002D78F8 /* TwofaceCard.jpg in Resources */,
+				707CAD691DEE6B42002D78F8 /* RobinCard.jpg in Resources */,
+				706A53C71DEE23D20079B1EF /* BatmanCard.jpg in Resources */,
+				707CAD6D1DEE81D8002D78F8 /* BlackBack.jpg in Resources */,
+				706A53B01DEE1CB80079B1EF /* Main.storyboard in Resources */,
+				706A53D91DEE28B20079B1EF /* PlayerIcon.png in Resources */,
+				707CAD611DEE6A52002D78F8 /* ListOfCards.jpg in Resources */,
+				70C82FCE1DEFC44A000BE730 /* BatmanLogo.png in Resources */,
+				707CAD5D1DEE69E2002D78F8 /* CardBack.jpg in Resources */,
+				707CAD5F1DEE6A0A002D78F8 /* BaneCard.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706A539F1DEE1CB70079B1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A53BF1DEE22C10079B1EF /* BoardModel.swift in Sources */,
+				706A53AB1DEE1CB80079B1EF /* GameScene.swift in Sources */,
+				706A53C11DEE22EC0079B1EF /* Card.swift in Sources */,
+				706A53DD1DEE3BE00079B1EF /* GameLobbyViewController.swift in Sources */,
+				706A53AD1DEE1CB80079B1EF /* GameViewController.swift in Sources */,
+				706A53A71DEE1CB80079B1EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		706A53AE1DEE1CB80079B1EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706A53AF1DEE1CB80079B1EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		706A53B31DEE1CB80079B1EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706A53B41DEE1CB80079B1EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		706A53B71DEE1CB80079B1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		706A53B81DEE1CB80079B1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		706A53BA1DEE1CB80079B1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Love Letter Batman iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ngh.Love-Letter-Batman-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		706A53BB1DEE1CB80079B1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Love Letter Batman iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ngh.Love-Letter-Batman-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706A539E1DEE1CB70079B1EF /* Build configuration list for PBXProject "Love Letter Batman iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A53B71DEE1CB80079B1EF /* Debug */,
+				706A53B81DEE1CB80079B1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706A53B91DEE1CB80079B1EF /* Build configuration list for PBXNativeTarget "Love Letter Batman iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A53BA1DEE1CB80079B1EF /* Debug */,
+				706A53BB1DEE1CB80079B1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706A539B1DEE1CB70079B1EF /* Project object */;
+}
